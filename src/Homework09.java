@@ -39,7 +39,7 @@ What is the value of the first triangle number to have over one hundred divisors
             while (numberOfDivisors <= 100) {//this while loop will run until the number of divisors of the triangle number is 100
 
 
-                // and also] sets n to be the next triangle number
+                // and also sets n to be the next triangle number
                 numberOfDivisors = 0;// this line of code resets the numberOfDivisors each time it has finished calculating the number of divisors for each triangle number
                 System.out.println("this is what number of divisors is reset to for next triangle number "+numberOfDivisors);
                 System.out.println();
