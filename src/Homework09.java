@@ -52,12 +52,11 @@ What is the value of the first triangle number to have over one hundred divisors
 
                 // for every number from 1 to the triangle number,
                 // count the number of divisors
-                for (int i = 1; i <= Math.sqrt(n); i++) {
+                for (int i = 1; i <= n; i++) {
                     if (n % i == 0)//this if else statement checks if i is a divisor of the triangle number
                         numberOfDivisors++;
 
                 }
-                numberOfDivisors*=2;
                 System.out.println("this is the number of divisors is for this triangle number "+numberOfDivisors);
 
 
